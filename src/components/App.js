@@ -1,13 +1,13 @@
 import React from "react";
-import Article from './Article'
-import Header from './Header'
+import Article from './Article';
+import Header from '../components/Header';
 
 function App() {
-  return <div className="App">
-    learn react!
-    <Header/>
+  return (
+  <div className="App">
+    <Header />
     <Article />
-  </div>;
+  </div>
+  )
 }
-
 export default App;
